@@ -4,7 +4,7 @@ import shap
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
-from PIL import Image
+#from PIL import Image
 import os
 import pickle
 
@@ -15,8 +15,8 @@ st.write("""
 # Boston House Price Prediction
 This app predicts the **Boston House Price**!
 """)
-image = Image.open('maison1.jpg')
-st.image(image, width=None)
+#image = Image.open('maison1.jpg')
+#st.image(image, width=None)
 st.write('---')
 
 # Loads the Boston House Price Dataset
