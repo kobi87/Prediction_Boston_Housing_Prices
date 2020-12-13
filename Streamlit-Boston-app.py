@@ -6,6 +6,7 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 import os
 import pickle
+from xgboost import XGBRegressor
 
 st.write("""
 # Boston House Price Prediction App
