@@ -65,10 +65,9 @@ st.write('---')
 model = RandomForestRegressor()
 model.fit(X, Y)
 # Apply Model to Make Prediction
-prediction = model.predict(df)
 
 # Apply Model to Make Prediction
-# Unpickle our model XGB so we can use it!
+# Unpickle our model RF so we can use it!
 if os.path.isfile("./model.pkl"):
   mod = pickle.load(open("./model.pkl", "rb"))
 else:
