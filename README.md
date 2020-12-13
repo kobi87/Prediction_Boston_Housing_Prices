@@ -1,4 +1,4 @@
-# Penguins web app deployed on Heroku
+# Boston-house-price web app deployed on Heroku
 
 The deployed web app is live at https://boston-house-price.herokuapp.com/
 
