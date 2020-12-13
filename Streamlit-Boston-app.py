@@ -61,19 +61,14 @@ st.header('Specified Input parameters')
 st.write(df)
 st.write('---')
 
-# Build Regression Model
-model = RandomForestRegressor()
-model.fit(X, Y)
-# Apply Model to Make Prediction
-
 # Apply Model to Make Prediction
 # Unpickle our model RF so we can use it!
 if os.path.isfile("./model.pkl"):
-  mod = pickle.load(open("./model.pkl", "rb"))
+  model = pickle.load(open("./model.pkl", "rb"))
 else:
   raise FileNotFoundError
 
-prediction_RF = mod.predict(df)
+prediction_RF = model.predict(df)
 
 st.write("""**Median Predicted value** of owner-occupied homes in $1000s""")
 st.write(prediction_RF)
