@@ -6,7 +6,6 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 import os
 import pickle
-from xgboost import XGBRegressor
 
 st.write("""
 # Boston House Price Prediction App
@@ -75,10 +74,10 @@ if os.path.isfile("./model.pkl"):
 else:
   raise FileNotFoundError
 
-prediction_XGB = mod.predict(df)
+prediction_RF = mod.predict(df)
 
 st.write("""**Median Predicted value** of owner-occupied homes in $1000s""")
-st.write(prediction_XGB)
+st.write(prediction_RF)
 st.write('---')
 
 # Explaining the model's predictions using SHAP values
