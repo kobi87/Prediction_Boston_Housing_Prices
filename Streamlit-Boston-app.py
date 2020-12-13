@@ -1,27 +1,21 @@
+
 import streamlit as st
 import pandas as pd
 import shap
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
-#from PIL import Image
-import os
-import pickle
-
-import warnings
-warnings.filterwarnings('ignore')
 
 st.write("""
-# Boston House Price Prediction
+# Boston House Price Prediction App
 This app predicts the **Boston House Price**!
 """)
-#image = Image.open('maison1.jpg')
-#st.image(image, width=None)
 st.write('---')
 
 # Loads the Boston House Price Dataset
 boston = datasets.load_boston()
 X = pd.DataFrame(boston.data, columns=boston.feature_names)
+Y = pd.DataFrame(boston.target, columns=["MEDV"])
 
 # Sidebar
 # Header of Specify Input Parameters
@@ -60,23 +54,19 @@ def user_input_features():
 df = user_input_features()
 
 # Main Panel
+
 # Print specified input parameters
-st.header('Specified Input parameters in sidebar')
+st.header('Specified Input parameters')
 st.write(df)
 st.write('---')
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
+# Build Regression Model
+model = RandomForestRegressor()
+model.fit(X, Y)
 # Apply Model to Make Prediction
-# Unpickle our model XGB so we can use it!
-if os.path.isfile("./model.pkl"):
-  model = pickle.load(open("./model.pkl", "rb"))
-else:
-  raise FileNotFoundError
-
 prediction = model.predict(df)
 
-st.write("""**Median Predicted value** of owner-occupied homes in $1000s""")
-
+st.header('Prediction of MEDV')
 st.write(prediction)
 st.write('---')
 
