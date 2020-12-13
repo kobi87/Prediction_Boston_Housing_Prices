@@ -75,10 +75,10 @@ if os.path.isfile("./model.pkl"):
 else:
   raise FileNotFoundError
 
-prediction = mod.predict(df)
+prediction_XGB = mod.predict(df)
 
 st.write("""**Median Predicted value** of owner-occupied homes in $1000s""")
-st.write(prediction)
+st.write(prediction_XGB)
 st.write('---')
 
 # Explaining the model's predictions using SHAP values
