@@ -5,15 +5,10 @@
   * [Overview](#overview)
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
-  * [Run](#run)
+  * [Run the Web App in local machine](#run)
   * [Deployement on Heroku](#deployement-on-heroku)
-  * [Directory Tree](#directory-tree)
-  * [To Do](#to-do)
   * [Bug / Feature Request](#bug---feature-request)
   * [Technologies Used](#technologies-used)
-  * [Team](#team)
-  * [License](#license)
-  * [Credits](#credits)
   
 ## Demo
 Link: [https://usa-boston-house-price.herokuapp.com/](https://usa-boston-house-price.herokuapp.com/)
@@ -56,16 +51,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/01/scikit-learn-logo.png" width=280>][<img target="_blank" src="https://static.javatpoint.com/tutorial/pandas/images/python-pandas.png" width=200>][<img target="_blank" src="https://miro.medium.com/max/765/1*cyXCE-JcBelTyrK-58w6_Q.png" width=280>][<img target="_blank" src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182ad27bcfbb9dff263a_RGB_Logo_Horizontal_Color_Light_Bg.png" width=200>][<img target="_blank" src="https://logos-download.com/wp-content/uploads/2016/09/Heroku_logo.png" width=170>]
+[<img target="_blank" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/01/scikit-learn-logo.png" width=280>] [<img target="_blank" src="https://static.javatpoint.com/tutorial/pandas/images/python-pandas.png" width=200>] [<img target="_blank" src="https://miro.medium.com/max/765/1*cyXCE-JcBelTyrK-58w6_Q.png" width=280>] [<img target="_blank" src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182ad27bcfbb9dff263a_RGB_Logo_Horizontal_Color_Light_Bg.png" width=200>]
 
-The deployed web app is live at https://usa-boston-house-price.herokuapp.com/
-
-This web app predict the house price as a function of their input parameters.
-
-
-The web app was built in Python using the following libraries:
-* streamlit
-* pandas
-* numpy
-* scikit-learn
-* pickle
+[<img target="_blank" src="https://logos-download.com/wp-content/uploads/2016/09/Heroku_logo.png" width=170>]
