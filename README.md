@@ -5,7 +5,7 @@
   * [Overview](#overview)
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
-  * [Run the Web App in local machine](#run-the-Web-app-in-local-machine)
+  * [Run the Web App on the local machine](#run-the-Web-app-on-the-local-machine)
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Bug / Feature Request](#bug---feature-request)
   * [Technologies Used](#technologies-used)
@@ -34,7 +34,7 @@ The Code is written in Python 3.8.5. If you don't have Python installed you can 
 ```bash
 pip install -r requirements.txt
 ```
-## Run the Web App in local machine
+## Run the Web App on the local machine
 Run this command in your terminal 
 ```bash
 streamlit run Streamlit-Boston-app.py
