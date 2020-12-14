@@ -11,6 +11,8 @@ st.write("""
 # Boston House Price Prediction App
 This app predicts the **Boston House Price**!
 """)
+link = '[Boston Housing Data and Parameters (Attributes) Descriptions](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.names)'
+st.markdown(link, unsafe_allow_html=True)
 st.write('---')
 
 # Loads the Boston House Price Dataset
