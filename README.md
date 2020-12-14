@@ -56,9 +56,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182ad27bcfbb9dff263a_RGB_Logo_Horizontal_Color_Light_Bg.png" width=200>](https://keras.io/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://www.kindpng.com/picc/b/301/3012484.png" width=200>](https://aws.amazon.com/s3/) 
-
-[<img target="_blank" src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width=270>](https://www.sentry.io/) [<img target="_blank" src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" width=100>](https://jquery.com/)
+[<img target="_blank" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/01/scikit-learn-logo.png" width=280>][<img target="_blank" src="https://static.javatpoint.com/tutorial/pandas/images/python-pandas.png" width=200>][<img target="_blank" src="https://miro.medium.com/max/765/1*cyXCE-JcBelTyrK-58w6_Q.png" width=280>][<img target="_blank" src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182ad27bcfbb9dff263a_RGB_Logo_Horizontal_Color_Light_Bg.png" width=200>][<img target="_blank" src="https://logos-download.com/wp-content/uploads/2016/09/Heroku_logo.png" width=170>]
 
 The deployed web app is live at https://usa-boston-house-price.herokuapp.com/
 
