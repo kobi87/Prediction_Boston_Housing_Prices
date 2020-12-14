@@ -28,7 +28,7 @@ To train the machine learning model, we used the scikit-learn’s boston dataset
 Link of the describe house Boston features: [https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.names](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.names)
 
 ## Technical Aspect
-This project is divided into two part:
+This project is divided into two four:
 1. [House Prices: Comprehnsive data exploration, Evaluation and Comparison between several machine learning models.](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/boston-house-price-prediction.ipynb)
 2. [Create pickle file for the best obtained ML model.](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/Create_pkl_model.ipynb)
 3. [Building a Streamlite web app.](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/Streamlit-Boston-app.py)
@@ -48,9 +48,9 @@ streamlit run Streamlit-Boston-app.py
 Follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
 ## Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/kh-bilal/Data-Science-Portfolio/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/kh-bilal/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
 
 
 The deployed web app is live at https://usa-boston-house-price.herokuapp.com/
