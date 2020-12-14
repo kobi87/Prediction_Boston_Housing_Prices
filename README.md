@@ -27,7 +27,7 @@ This project is divided into four parts:
 1. [House Prices: Comprehnsive data exploration, Evaluation and Comparison between several machine learning models.](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/boston-house-price-prediction.ipynb)
 2. [Create pickle file for the best obtained ML model.](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/Create_pkl_model.ipynb)
 3. [Building a Streamlite web app.](https://github.com/kh-bilal/Data-Science-Portfolio/blob/main/Prediction_Boston_Housing_Prices/Streamlit-Boston-app.py)
-4. Hosting a Streamlite web app on Heroku.
+4. Hosting a Streamlit web app on Heroku.
 
 ## Installation
 The Code is written in Python 3.8.5. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
