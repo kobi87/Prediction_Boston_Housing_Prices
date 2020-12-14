@@ -17,9 +17,9 @@
   * [Credits](#credits)
   
 ## Demo
-Link: [https://indian-currency-prediction.herokuapp.com](https://indian-currency-prediction.herokuapp.com/)
+Link: [https://usa-boston-house-price.herokuapp.com/](https://usa-boston-house-price.herokuapp.com/)
 
-[![](https://i.imgur.com/5gj4USj.png)](https://indian-currency-prediction.herokuapp.com/)
+[![](https://raw.githubusercontent.com/kh-bilal/Dataset/master/demo_Image.png)](https://usa-boston-house-price.herokuapp.com/)
 
 ## Overview
 The problem that we are going to solve here is that given a set of features that describe a house in Boston, our machine learning model must predict the house price. To train our machine learning model with boston housing data, we will be using scikit-learn’s boston dataset.
