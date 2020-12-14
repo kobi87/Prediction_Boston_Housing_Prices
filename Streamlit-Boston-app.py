@@ -7,15 +7,6 @@ from sklearn.ensemble import RandomForestRegressor
 import os
 import pickle
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg");
-background-size: cover;
-}
-</style>
-'''
-
 st.write("""
 # Boston House Price Prediction App
 This app predicts the **Boston House Price**!
