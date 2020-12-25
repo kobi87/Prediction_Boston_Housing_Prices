@@ -7,7 +7,7 @@
   * [Installation](#installation)
   * [Run the Web App on the local machine](#run-the-Web-app-on-the-local-machine)
   * [Deployement on Heroku](#deployement-on-heroku)
-  * [Bug / Feature Request](#bug---feature-request)
+  * [Bug or Feature Request](#bug-or-feature-request)
   * [Technologies Used](#technologies-used)
   
 ## Demo
@@ -42,7 +42,7 @@ streamlit run Streamlit-Boston-app.py
 ## Deployement on Heroku
 Follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
-## Bug / Feature Request
+## Bug or Feature Request
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/kh-bilal/Data-Science-Portfolio/issues/new) by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/kh-bilal/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
